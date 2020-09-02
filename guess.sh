@@ -11,12 +11,12 @@ do
 
 	if [ $user_number -eq $Sytem_numer ] 
 	then 
-		echo "the numbergussed is correct"
-		echo "YOU GUSSES IT WITH THIS MANY CHANCES $counter"
+		echo "the number is correct"
+		echo "You guessed it on try no $counter"
 		break
 
 	else 
-		echo "the numbergussed is incorrect"
+		echo "the number gussed is incorrect"
 		if [ $user_number -ge $Sytem_numer ]
 		then 
 			echo "please enter less than $user_number"
